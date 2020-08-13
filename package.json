@@ -1,0 +1,23 @@
+{
+  "name": "@fade-project/buffer-server",
+  "version": "1.0.0",
+  "description": "Launch SFTP/HTTP Server by Buffer Data",
+  "main": "buffer-sftp-http-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ldmsys",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ssh2": "^0.8.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fade-project/buffer-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fade-project/buffer-server/issues"
+  },
+  "homepage": "https://github.com/fade-project/buffer-server#readme"
+}
