@@ -1,4 +1,5 @@
 # buffer-server 
+ * Simple and single file host by Buffer's data
 
 ## Notice
  * This project is subproject of FADe Project
