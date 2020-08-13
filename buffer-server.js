@@ -4,7 +4,7 @@ const ssh2 = require('ssh2');
 const express = require('express');
 const app = express();
 
-/* buffer-sftp-http-server Module
+/* buffer-server Module
  * This Subproject is part of FADe Project
  * Copyright (C) ldmsys, License subject by main project
  * (Currently MIT License)
