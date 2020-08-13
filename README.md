@@ -12,11 +12,11 @@
 ```
  * Put in your project:
 ```
-var bshs = require('@fade-project/buffer-sftp-http-server)
+var buffer_server = require('@fade-project/buffer-server')
 ```
- * bshs.sftp_server(serverKey, allowedUser, allowedPass, filename, filedata[, ret_port]);
+ * buffer_server.sftp_server(serverKey, allowedUser, allowedPass, filename, filedata[, ret_port]);
    * Accept Parameters as a String, except filedata (it's a Buffer).
- * bshs.web_server(index, filename, filedata[, ret_port]);
+ * buffer_server.web_server(index, filename, filedata[, ret_port]);
    * Also Accept Parameters as a String, except filedata (it's also a buffer).
  * In default, web_server() returns Port Number. You may change by set ret_port option to false
  * In default, sftp_server() returns Promise(Will resolved to Port Number), You may change by ret_port option to false
