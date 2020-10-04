@@ -1,6 +1,6 @@
 {
   "name": "buffer-server",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Launch SFTP/HTTP Server by Buffer Data",
   "main": "buffer-server.js",
   "scripts": {
