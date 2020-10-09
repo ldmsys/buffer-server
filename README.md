@@ -8,7 +8,7 @@
 ```
  * require() in your project:
 ```
-var buffer_server = require('@fade-project/buffer-server')
+var buffer_server = require('buffer-server')
 ```
  * buffer_server.sftp_server(serverKey, allowedUser, allowedPass, filename, filedata);
    * Accept Parameters as a String, except filedata (it's a Buffer).
