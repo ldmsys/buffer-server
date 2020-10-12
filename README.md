@@ -9,12 +9,11 @@
  * require() in your project:
 ```
 var buffer_server = require('buffer-server')
+---
+import buffer_server from 'buffer-server';
 ```
- * buffer_server.sftp_server(serverKey, allowedUser, allowedPass, filename, filedata);
-   * Accept Parameters as a String, except filedata (it's a Buffer).
- * buffer_server.web_server(index, filename, filedata[, ret_port]);
-   * Also Accept Parameters as a String, except filedata (it's also a buffer).
- * web_server() and sftp_server() returns Promise. It will resolve to Buffer. (TS: Promise<Buffer>)
+ * buffer_server.sftp_server(serverKey(:string), allowedUser(:string), allowedPass(:string), filename(:string), filedata(:Buffer))(: Promise<number>)
+ * buffer_server.web_server(index(:string), filename(:string), filedata(Buffer))(: Promise<number>)
 
 ## Credit
  * [express](https://github.com/expressjs/express) - [MIT License](https://github.com/expressjs/express/blob/master/LICENSE)
